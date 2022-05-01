@@ -21,7 +21,6 @@ class AdminOrder(admin.ModelAdmin):
     list_display = ['product']
 
 
-# Register your models here.
 admin.site.register(Products, AdminProduct)
 admin.site.register(Category, CategoryAdmin)
 admin.site.register(Customer, AdminCustomer)
